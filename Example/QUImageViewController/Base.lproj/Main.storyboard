@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="QUViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LNz-5B-TNk">
+                                <rect key="frame" x="162" y="308" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2VQ-Oe-QrD"/>
+                                    <constraint firstAttribute="width" constant="50" id="KSV-TG-j2x"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3V-tl-4Cq">
+                                <rect key="frame" x="162" y="308" width="50" height="50"/>
+                                <connections>
+                                    <action selector="didTapImageView:" destination="whP-gf-Uak" eventType="touchUpInside" id="3ZH-gG-0NW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LNz-5B-TNk" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="PUa-TW-lIm"/>
+                            <constraint firstItem="w3V-tl-4Cq" firstAttribute="centerX" secondItem="LNz-5B-TNk" secondAttribute="centerX" id="aOX-ht-d0f"/>
+                            <constraint firstItem="LNz-5B-TNk" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="abq-6A-LHe"/>
+                            <constraint firstItem="w3V-tl-4Cq" firstAttribute="width" secondItem="LNz-5B-TNk" secondAttribute="width" id="ad3-49-iAj"/>
+                            <constraint firstItem="w3V-tl-4Cq" firstAttribute="centerY" secondItem="LNz-5B-TNk" secondAttribute="centerY" id="mRF-XP-l5h"/>
+                            <constraint firstItem="w3V-tl-4Cq" firstAttribute="height" secondItem="LNz-5B-TNk" secondAttribute="height" id="vWE-n5-Y5T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="LNz-5B-TNk" id="ug9-xq-47m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>

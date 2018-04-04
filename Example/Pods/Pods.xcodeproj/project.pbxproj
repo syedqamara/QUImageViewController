@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04711C982074FAD500B6A44C /* UIImage+QUImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8C2074FAD400B6A44C /* UIImage+QUImageEffects.h */; };
+		04711C992074FAD500B6A44C /* UIApplication+QUImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8D2074FAD400B6A44C /* UIApplication+QUImageViewController.h */; };
+		04711C9A2074FAD500B6A44C /* QUImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8E2074FAD400B6A44C /* QUImageViewController.h */; };
+		04711C9B2074FAD500B6A44C /* QUSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C8F2074FAD400B6A44C /* QUSimpleImageDownloader.m */; };
+		04711C9C2074FAD500B6A44C /* QUAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C902074FAD400B6A44C /* QUAnimatedGIFUtility.m */; };
+		04711C9D2074FAD500B6A44C /* QUImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C912074FAD400B6A44C /* QUImageInfo.m */; };
+		04711C9E2074FAD500B6A44C /* UIImage+QUImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C922074FAD400B6A44C /* UIImage+QUImageEffects.m */; };
+		04711C9F2074FAD500B6A44C /* QUSimpleImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C932074FAD500B6A44C /* QUSimpleImageDownloader.h */; };
+		04711CA02074FAD500B6A44C /* QUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C942074FAD500B6A44C /* QUImageViewController.m */; };
+		04711CA12074FAD500B6A44C /* QUAnimatedGIFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C952074FAD500B6A44C /* QUAnimatedGIFUtility.h */; };
+		04711CA22074FAD500B6A44C /* QUImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C962074FAD500B6A44C /* QUImageInfo.h */; };
+		04711CA32074FAD500B6A44C /* UIApplication+QUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C972074FAD500B6A44C /* UIApplication+QUImageViewController.m */; };
+		04711CA42074FC0800B6A44C /* QUAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C902074FAD400B6A44C /* QUAnimatedGIFUtility.m */; };
+		04711CA52074FC0C00B6A44C /* QUImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C912074FAD400B6A44C /* QUImageInfo.m */; };
+		04711CA62074FC1900B6A44C /* QUSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C8F2074FAD400B6A44C /* QUSimpleImageDownloader.m */; };
+		04711CA72074FC1D00B6A44C /* UIApplication+QUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C972074FAD500B6A44C /* UIApplication+QUImageViewController.m */; };
+		04711CA82074FC1F00B6A44C /* UIImage+QUImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 04711C922074FAD400B6A44C /* UIImage+QUImageEffects.m */; };
+		04711CA92074FC5F00B6A44C /* QUAnimatedGIFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C952074FAD500B6A44C /* QUAnimatedGIFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04711CAA2074FC5F00B6A44C /* QUImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C962074FAD500B6A44C /* QUImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04711CAB2074FC5F00B6A44C /* QUImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8E2074FAD400B6A44C /* QUImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04711CAC2074FC5F00B6A44C /* QUSimpleImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C932074FAD500B6A44C /* QUSimpleImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04711CAD2074FC5F00B6A44C /* UIApplication+QUImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8D2074FAD400B6A44C /* UIApplication+QUImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04711CAE2074FC6000B6A44C /* UIImage+QUImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 04711C8C2074FAD400B6A44C /* UIImage+QUImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3C6A7861357ADB6E4950EAAFF76FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2C561E9A8055CA925F5E183952755346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		42B68F4EFC14BA1B386387F9A8560984 /* QUImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFFFB99ED21A3967170BD3CB1BD625D /* QUImageViewController-dummy.m */; };
+		59E5F42677BC6E42D6A9DE40A33B3FA4 /* Pods-QUImageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A4F7F0FF1A00A3DDE5871F777BF459 /* Pods-QUImageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E26FB60F860275D7CDE6504BC222E9F /* Pods-QUImageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F045782205DAB3A9F9224F7BBC3DCA0 /* Pods-QUImageViewController_Tests-dummy.m */; };
+		C4420C1568D9CE2283D1BFE042DF51A7 /* Pods-QUImageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39463051E0926EC767F92EDC0517E1AC /* Pods-QUImageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C474DD43842BAA3D609754A5D70387F3 /* Pods-QUImageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3E546A17F05810E135D38D260533 /* Pods-QUImageViewController_Example-dummy.m */; };
+		C854CF738E932307C0E661CBFE701ADE /* QUImageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0216124DB597DD414D6DEFF42C1EFAB /* QUImageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B3613CF2B9C48ACCDEFF5074B15F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBEE6DD5F80549836FB2A8AB6D80C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D91CE6C37771EA5DC7CFE9891BBEF3;
+			remoteInfo = QUImageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04711C8C2074FAD400B6A44C /* UIImage+QUImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+QUImageEffects.h"; path = "QUImageViewController/Classes/UIImage+QUImageEffects.h"; sourceTree = "<group>"; };
+		04711C8D2074FAD400B6A44C /* UIApplication+QUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+QUImageViewController.h"; path = "QUImageViewController/Classes/UIApplication+QUImageViewController.h"; sourceTree = "<group>"; };
+		04711C8E2074FAD400B6A44C /* QUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUImageViewController.h; path = QUImageViewController/Classes/QUImageViewController.h; sourceTree = "<group>"; };
+		04711C8F2074FAD400B6A44C /* QUSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUSimpleImageDownloader.m; path = QUImageViewController/Classes/QUSimpleImageDownloader.m; sourceTree = "<group>"; };
+		04711C902074FAD400B6A44C /* QUAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUAnimatedGIFUtility.m; path = QUImageViewController/Classes/QUAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		04711C912074FAD400B6A44C /* QUImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUImageInfo.m; path = QUImageViewController/Classes/QUImageInfo.m; sourceTree = "<group>"; };
+		04711C922074FAD400B6A44C /* UIImage+QUImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QUImageEffects.m"; path = "QUImageViewController/Classes/UIImage+QUImageEffects.m"; sourceTree = "<group>"; };
+		04711C932074FAD500B6A44C /* QUSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUSimpleImageDownloader.h; path = QUImageViewController/Classes/QUSimpleImageDownloader.h; sourceTree = "<group>"; };
+		04711C942074FAD500B6A44C /* QUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUImageViewController.m; path = QUImageViewController/Classes/QUImageViewController.m; sourceTree = "<group>"; };
+		04711C952074FAD500B6A44C /* QUAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUAnimatedGIFUtility.h; path = QUImageViewController/Classes/QUAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		04711C962074FAD500B6A44C /* QUImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUImageInfo.h; path = QUImageViewController/Classes/QUImageInfo.h; sourceTree = "<group>"; };
+		04711C972074FAD500B6A44C /* UIApplication+QUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+QUImageViewController.m"; path = "QUImageViewController/Classes/UIApplication+QUImageViewController.m"; sourceTree = "<group>"; };
+		0BFE3E546A17F05810E135D38D260533 /* Pods-QUImageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QUImageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		13D55726C2490246127109BA658D1958 /* Pods-QUImageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUImageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1784BEB32F9046C516B76F3E278C44E6 /* QUImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QUImageViewController.xcconfig; sourceTree = "<group>"; };
+		1A5DB11CD62756B89E82EF3F5EF25FBF /* QUImageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QUImageViewController.modulemap; sourceTree = "<group>"; };
+		1DF65D2257A235817BC96A90EBD65F76 /* Pods-QUImageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QUImageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2592D84D7B0A502BE70A877C7937D7BD /* Pods-QUImageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUImageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2BE37927D135AE794D6E4F324C904EEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3323F27B2B082065724B5F41C9C5FDD1 /* QUImageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QUImageViewController-prefix.pch"; sourceTree = "<group>"; };
+		381F47301A9F252CE241D157CC226550 /* Pods-QUImageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUImageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		39463051E0926EC767F92EDC0517E1AC /* Pods-QUImageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QUImageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4873F2ABFBB574F4567335F58370AAF8 /* QUImageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QUImageViewController.podspec; sourceTree = "<group>"; };
+		582CF7B1C44EAE9E754E7A60A17896C3 /* Pods-QUImageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QUImageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67481656DFB96F7A8CF4AE4B41E20023 /* Pods-QUImageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QUImageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		6ABD4B4CEE3573D0F37B79C403A8D254 /* Pods-QUImageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUImageViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		6EDF9D02B0149FD7E4D18C7BCEBB4BB0 /* Pods-QUImageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QUImageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70616CE0A9F1A783D6162E39C4A863AC /* Pods-QUImageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUImageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		81E3647C18DFD944500BA4D21AE06D31 /* Pods-QUImageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUImageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8771861E4E72EBA6885FB6F4EAECA585 /* Pods-QUImageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QUImageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B48E018D20E575947CC347AE06740A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F045782205DAB3A9F9224F7BBC3DCA0 /* Pods-QUImageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QUImageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		90494CD2406B9F57B8A83BC76A844FC8 /* Pods_QUImageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QUImageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99761D32213A5DDE0250B7BD0381A0AF /* Pods-QUImageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QUImageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		A1F834BEB1D944C3512C51BCF02FBDDF /* QUImageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QUImageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A4F7F0FF1A00A3DDE5871F777BF459 /* Pods-QUImageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QUImageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE554BB039577A36CBC1446B719079D6 /* Pods-QUImageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUImageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DE2E3FB51E9EAADC86A66DFB6470C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C0216124DB597DD414D6DEFF42C1EFAB /* QUImageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QUImageViewController-umbrella.h"; sourceTree = "<group>"; };
+		C7C70400E9EA172951978607F0878968 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D013745837D6FC7197BE0D5BEB52C83D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E897538E1F5F3A6C85B238DEA30471A3 /* Pods-QUImageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUImageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFFFB99ED21A3967170BD3CB1BD625D /* QUImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QUImageViewController-dummy.m"; sourceTree = "<group>"; };
+		FECD7FB7A2DEA057683D40DB8D8CEAB2 /* Pods_QUImageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QUImageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592C705A10F08A1E760C94BA0A6B6A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3C6A7861357ADB6E4950EAAFF76FD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3CE9B8C78C91942F4FCF191E1593F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B3613CF2B9C48ACCDEFF5074B15F68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9570122B2C86E9B0F7BDA3C879B8AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C561E9A8055CA925F5E183952755346 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B281CF68F2F2B9AAA0E51DD67592683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECD7FB7A2DEA057683D40DB8D8CEAB2 /* Pods_QUImageViewController_Example.framework */,
+				90494CD2406B9F57B8A83BC76A844FC8 /* Pods_QUImageViewController_Tests.framework */,
+				A1F834BEB1D944C3512C51BCF02FBDDF /* QUImageViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FD2EF55918553174298ABC2D4E343E /* Pods-QUImageViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D013745837D6FC7197BE0D5BEB52C83D /* Info.plist */,
+				67481656DFB96F7A8CF4AE4B41E20023 /* Pods-QUImageViewController_Tests.modulemap */,
+				6EDF9D02B0149FD7E4D18C7BCEBB4BB0 /* Pods-QUImageViewController_Tests-acknowledgements.markdown */,
+				1DF65D2257A235817BC96A90EBD65F76 /* Pods-QUImageViewController_Tests-acknowledgements.plist */,
+				8F045782205DAB3A9F9224F7BBC3DCA0 /* Pods-QUImageViewController_Tests-dummy.m */,
+				81E3647C18DFD944500BA4D21AE06D31 /* Pods-QUImageViewController_Tests-frameworks.sh */,
+				381F47301A9F252CE241D157CC226550 /* Pods-QUImageViewController_Tests-resources.sh */,
+				39463051E0926EC767F92EDC0517E1AC /* Pods-QUImageViewController_Tests-umbrella.h */,
+				13D55726C2490246127109BA658D1958 /* Pods-QUImageViewController_Tests.debug.xcconfig */,
+				AE554BB039577A36CBC1446B719079D6 /* Pods-QUImageViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-QUImageViewController_Tests";
+			path = "Target Support Files/Pods-QUImageViewController_Tests";
+			sourceTree = "<group>";
+		};
+		76B376FD8B6CD6246BC5EB7F52CD226A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B9DE2E3FB51E9EAADC86A66DFB6470C4 /* LICENSE */,
+				4873F2ABFBB574F4567335F58370AAF8 /* QUImageViewController.podspec */,
+				2BE37927D135AE794D6E4F324C904EEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A96D99A1FCFDC75BD1C5A1953777C151 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4B281CF68F2F2B9AAA0E51DD67592683 /* Products */,
+				A44884DA5C1DBE9336B9364615AA713E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86C16962C10F399471576840A959123E /* QUImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04711C952074FAD500B6A44C /* QUAnimatedGIFUtility.h */,
+				04711C902074FAD400B6A44C /* QUAnimatedGIFUtility.m */,
+				04711C962074FAD500B6A44C /* QUImageInfo.h */,
+				04711C912074FAD400B6A44C /* QUImageInfo.m */,
+				04711C8E2074FAD400B6A44C /* QUImageViewController.h */,
+				04711C942074FAD500B6A44C /* QUImageViewController.m */,
+				04711C932074FAD500B6A44C /* QUSimpleImageDownloader.h */,
+				04711C8F2074FAD400B6A44C /* QUSimpleImageDownloader.m */,
+				04711C8D2074FAD400B6A44C /* UIApplication+QUImageViewController.h */,
+				04711C972074FAD500B6A44C /* UIApplication+QUImageViewController.m */,
+				04711C8C2074FAD400B6A44C /* UIImage+QUImageEffects.h */,
+				04711C922074FAD400B6A44C /* UIImage+QUImageEffects.m */,
+				76B376FD8B6CD6246BC5EB7F52CD226A /* Pod */,
+				F65C3F2280A94891381E49E0C585F9BA /* Support Files */,
+			);
+			name = QUImageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A44884DA5C1DBE9336B9364615AA713E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB264CC4FF5E52BDC4FCC8B20BC39C /* Pods-QUImageViewController_Example */,
+				50FD2EF55918553174298ABC2D4E343E /* Pods-QUImageViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A96D99A1FCFDC75BD1C5A1953777C151 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86C16962C10F399471576840A959123E /* QUImageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5EB264CC4FF5E52BDC4FCC8B20BC39C /* Pods-QUImageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B48E018D20E575947CC347AE06740A2 /* Info.plist */,
+				99761D32213A5DDE0250B7BD0381A0AF /* Pods-QUImageViewController_Example.modulemap */,
+				8771861E4E72EBA6885FB6F4EAECA585 /* Pods-QUImageViewController_Example-acknowledgements.markdown */,
+				582CF7B1C44EAE9E754E7A60A17896C3 /* Pods-QUImageViewController_Example-acknowledgements.plist */,
+				0BFE3E546A17F05810E135D38D260533 /* Pods-QUImageViewController_Example-dummy.m */,
+				70616CE0A9F1A783D6162E39C4A863AC /* Pods-QUImageViewController_Example-frameworks.sh */,
+				6ABD4B4CEE3573D0F37B79C403A8D254 /* Pods-QUImageViewController_Example-resources.sh */,
+				A9A4F7F0FF1A00A3DDE5871F777BF459 /* Pods-QUImageViewController_Example-umbrella.h */,
+				E897538E1F5F3A6C85B238DEA30471A3 /* Pods-QUImageViewController_Example.debug.xcconfig */,
+				2592D84D7B0A502BE70A877C7937D7BD /* Pods-QUImageViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-QUImageViewController_Example";
+			path = "Target Support Files/Pods-QUImageViewController_Example";
+			sourceTree = "<group>";
+		};
+		F65C3F2280A94891381E49E0C585F9BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7C70400E9EA172951978607F0878968 /* Info.plist */,
+				1A5DB11CD62756B89E82EF3F5EF25FBF /* QUImageViewController.modulemap */,
+				1784BEB32F9046C516B76F3E278C44E6 /* QUImageViewController.xcconfig */,
+				EBFFFB99ED21A3967170BD3CB1BD625D /* QUImageViewController-dummy.m */,
+				3323F27B2B082065724B5F41C9C5FDD1 /* QUImageViewController-prefix.pch */,
+				C0216124DB597DD414D6DEFF42C1EFAB /* QUImageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QUImageViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26ADF63200DA1DFCBE6F3A3CB2A8D64A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E5F42677BC6E42D6A9DE40A33B3FA4 /* Pods-QUImageViewController_Example-umbrella.h in Headers */,
+				04711CA12074FAD500B6A44C /* QUAnimatedGIFUtility.h in Headers */,
+				04711C9F2074FAD500B6A44C /* QUSimpleImageDownloader.h in Headers */,
+				04711C9A2074FAD500B6A44C /* QUImageViewController.h in Headers */,
+				04711C992074FAD500B6A44C /* UIApplication+QUImageViewController.h in Headers */,
+				04711C982074FAD500B6A44C /* UIImage+QUImageEffects.h in Headers */,
+				04711CA22074FAD500B6A44C /* QUImageInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548DDD546CF4A2BE6495910DE27AA1C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4420C1568D9CE2283D1BFE042DF51A7 /* Pods-QUImageViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E7FB08ECF638FB839ACB3DD1AE25D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C854CF738E932307C0E661CBFE701ADE /* QUImageViewController-umbrella.h in Headers */,
+				04711CA92074FC5F00B6A44C /* QUAnimatedGIFUtility.h in Headers */,
+				04711CAA2074FC5F00B6A44C /* QUImageInfo.h in Headers */,
+				04711CAB2074FC5F00B6A44C /* QUImageViewController.h in Headers */,
+				04711CAC2074FC5F00B6A44C /* QUSimpleImageDownloader.h in Headers */,
+				04711CAD2074FC5F00B6A44C /* UIApplication+QUImageViewController.h in Headers */,
+				04711CAE2074FC6000B6A44C /* UIImage+QUImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A27DF47D2BFC0F0CF5721941F6D18D5 /* Pods-QUImageViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5544CA93163751923805DC2B964A2435 /* Build configuration list for PBXNativeTarget "Pods-QUImageViewController_Tests" */;
+			buildPhases = (
+				CCFA280C39CF8201B4A690CC5107DC2E /* Sources */,
+				592C705A10F08A1E760C94BA0A6B6A64 /* Frameworks */,
+				548DDD546CF4A2BE6495910DE27AA1C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QUImageViewController_Tests";
+			productName = "Pods-QUImageViewController_Tests";
+			productReference = 90494CD2406B9F57B8A83BC76A844FC8 /* Pods_QUImageViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEBA7BD6BF784BE0B6136B287AEA944A /* Pods-QUImageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF1728D5ABFD98DAE56811CCB7B06BE /* Build configuration list for PBXNativeTarget "Pods-QUImageViewController_Example" */;
+			buildPhases = (
+				78FF04A04D1E6FFE8E991D04184936C6 /* Sources */,
+				6D3CE9B8C78C91942F4FCF191E1593F0 /* Frameworks */,
+				26ADF63200DA1DFCBE6F3A3CB2A8D64A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7964C6F4F4C1573828778CFC80FFBF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QUImageViewController_Example";
+			productName = "Pods-QUImageViewController_Example";
+			productReference = FECD7FB7A2DEA057683D40DB8D8CEAB2 /* Pods_QUImageViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0D91CE6C37771EA5DC7CFE9891BBEF3 /* QUImageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2396383F0B00D29CE004C4311B3255 /* Build configuration list for PBXNativeTarget "QUImageViewController" */;
+			buildPhases = (
+				28400E27A00FA9929C480C4673F32EBF /* Sources */,
+				A9570122B2C86E9B0F7BDA3C879B8AB1 /* Frameworks */,
+				573E7FB08ECF638FB839ACB3DD1AE25D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUImageViewController;
+			productName = QUImageViewController;
+			productReference = A1F834BEB1D944C3512C51BCF02FBDDF /* QUImageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B281CF68F2F2B9AAA0E51DD67592683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBA7BD6BF784BE0B6136B287AEA944A /* Pods-QUImageViewController_Example */,
+				6A27DF47D2BFC0F0CF5721941F6D18D5 /* Pods-QUImageViewController_Tests */,
+				E0D91CE6C37771EA5DC7CFE9891BBEF3 /* QUImageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28400E27A00FA9929C480C4673F32EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04711CA52074FC0C00B6A44C /* QUImageInfo.m in Sources */,
+				04711CA72074FC1D00B6A44C /* UIApplication+QUImageViewController.m in Sources */,
+				04711CA62074FC1900B6A44C /* QUSimpleImageDownloader.m in Sources */,
+				04711CA82074FC1F00B6A44C /* UIImage+QUImageEffects.m in Sources */,
+				42B68F4EFC14BA1B386387F9A8560984 /* QUImageViewController-dummy.m in Sources */,
+				04711CA42074FC0800B6A44C /* QUAnimatedGIFUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FF04A04D1E6FFE8E991D04184936C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04711C9B2074FAD500B6A44C /* QUSimpleImageDownloader.m in Sources */,
+				04711C9D2074FAD500B6A44C /* QUImageInfo.m in Sources */,
+				C474DD43842BAA3D609754A5D70387F3 /* Pods-QUImageViewController_Example-dummy.m in Sources */,
+				04711C9C2074FAD500B6A44C /* QUAnimatedGIFUtility.m in Sources */,
+				04711CA02074FAD500B6A44C /* QUImageViewController.m in Sources */,
+				04711C9E2074FAD500B6A44C /* UIImage+QUImageEffects.m in Sources */,
+				04711CA32074FAD500B6A44C /* UIApplication+QUImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFA280C39CF8201B4A690CC5107DC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E26FB60F860275D7CDE6504BC222E9F /* Pods-QUImageViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7964C6F4F4C1573828778CFC80FFBF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QUImageViewController;
+			target = E0D91CE6C37771EA5DC7CFE9891BBEF3 /* QUImageViewController */;
+			targetProxy = FEBEE6DD5F80549836FB2A8AB6D80C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3700105340E5B6DA8CCCC9A583FDAFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E897538E1F5F3A6C85B238DEA30471A3 /* Pods-QUImageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QUImageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUImageViewController_Example/Pods-QUImageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUImageViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37C4412B913ED312DACFBA41ACF6D215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1784BEB32F9046C516B76F3E278C44E6 /* QUImageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QUImageViewController/QUImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QUImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QUImageViewController/QUImageViewController.modulemap";
+				PRODUCT_NAME = QUImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		552A93016E08E028E0E83612E0A76119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D55726C2490246127109BA658D1958 /* Pods-QUImageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QUImageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUImageViewController_Tests/Pods-QUImageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUImageViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C501B05BB145E3D48349F6221171FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2592D84D7B0A502BE70A877C7937D7BD /* Pods-QUImageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QUImageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUImageViewController_Example/Pods-QUImageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUImageViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92BEA6577F9FB4043842A932DB30803F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE554BB039577A36CBC1446B719079D6 /* Pods-QUImageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QUImageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUImageViewController_Tests/Pods-QUImageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUImageViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93FF93DA4D783F25E580A3368ECF05B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1784BEB32F9046C516B76F3E278C44E6 /* QUImageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QUImageViewController/QUImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QUImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QUImageViewController/QUImageViewController.modulemap";
+				PRODUCT_NAME = QUImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5544CA93163751923805DC2B964A2435 /* Build configuration list for PBXNativeTarget "Pods-QUImageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552A93016E08E028E0E83612E0A76119 /* Debug */,
+				92BEA6577F9FB4043842A932DB30803F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2396383F0B00D29CE004C4311B3255 /* Build configuration list for PBXNativeTarget "QUImageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C4412B913ED312DACFBA41ACF6D215 /* Debug */,
+				93FF93DA4D783F25E580A3368ECF05B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF1728D5ABFD98DAE56811CCB7B06BE /* Build configuration list for PBXNativeTarget "Pods-QUImageViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3700105340E5B6DA8CCCC9A583FDAFF0 /* Debug */,
+				77C501B05BB145E3D48349F6221171FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

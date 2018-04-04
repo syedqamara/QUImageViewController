@@ -1,0 +1,6 @@
+framework module QUImageViewController {
+  umbrella header "QUImageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

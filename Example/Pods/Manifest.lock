@@ -1,0 +1,16 @@
+PODS:
+  - QUImageViewController (0.1.0)
+
+DEPENDENCIES:
+  - QUImageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  QUImageViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QUImageViewController: 9906cc96bab0d39d84563c57b09ae898919b5223
+
+PODFILE CHECKSUM: c30f9e6ad84d61f89cbfa5424a6d1c79963ac0bb
+
+COCOAPODS: 1.4.0

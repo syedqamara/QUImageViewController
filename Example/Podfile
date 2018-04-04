@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QUImageViewController_Example' do
+  pod 'QUImageViewController', :path => '../'
+
+  target 'QUImageViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

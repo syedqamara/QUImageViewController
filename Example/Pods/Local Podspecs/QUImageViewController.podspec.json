@@ -1,0 +1,22 @@
+{
+  "name": "QUImageViewController",
+  "version": "0.1.0",
+  "summary": "A short description of QUImageViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/etdev24/QUImageViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "etdev24": "syedqamar.a1@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/etdev24/QUImageViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QUImageViewController/Classes/**/*"
+}
